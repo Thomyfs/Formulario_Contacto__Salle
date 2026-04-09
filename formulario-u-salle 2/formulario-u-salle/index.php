@@ -96,8 +96,8 @@
 
     <form action="procesar.php" method="POST">
 
-        <label>Nombre</label>
-        <input type="text" name="nombre" required>
+        <label>Nombre Completo</label>
+        <input type="text" name="nombre" placeholder="Ej: Nicolas Perez" minlength="3" required>
 
         <label>Correo</label>
         <input type="email" name="email" required>
