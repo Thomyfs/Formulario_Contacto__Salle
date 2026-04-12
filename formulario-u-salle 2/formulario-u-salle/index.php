@@ -107,6 +107,15 @@
 
         <button type="submit">Enviar</button>
 
+        <label>Teléfono</label>
+        <input type="tel" name="telefono" placeholder="Número de teléfono" required>
+
+        <label>Edad</label>
+        <input type="number" name="edad" min="18" max="99" required>
+
+
+            
+
     </form>
 
     <div class="link">
