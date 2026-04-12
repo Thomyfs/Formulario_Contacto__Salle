@@ -101,11 +101,10 @@
 
         <label>Correo</label>
         <input type="email" name="email" required>
+        <small style="color: gray;">Nunca compartiremos tu correo con terceros</small>
 
         <label>Mensaje</label>
         <textarea name="mensaje" required></textarea>
-
-        <button type="submit">Enviar</button>
 
         <label>Teléfono</label>
         <input type="tel" name="telefono" placeholder="Número de teléfono" required>
@@ -113,8 +112,7 @@
         <label>Edad</label>
         <input type="number" name="edad" min="18" max="99" required>
 
-
-            
+        <button type="submit">Enviar formulario 🚀</button>
 
     </form>
 
